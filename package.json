@@ -1,0 +1,22 @@
+{
+  "name": "cypress_e2e_automation",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Cypress",
+    "Automation",
+    "Suite"
+  ],
+  "author": "Omar Sabha",
+  "license": "ISC",
+  "description": "A Cypress-based E2E testing suite.",
+  "devDependencies": {
+    "cypress": "^13.6.3"
+  }
+}
