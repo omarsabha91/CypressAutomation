@@ -6,8 +6,8 @@ describe('StocksMazeSeller Sign In Test', () => {
 
     it('should allow a seller to sign in', () => {
         signInPage.visit();
-        signInPage.typeUsername('+12676704349');
-        signInPage.typePassword('test1234');
+        signInPage.typeUsername(Cypress.env('username'));
+        signInPage.typePassword(Cypress.env('password'));
         signInPage.submit();
         cy.url().should('include', '/dashboard');
     });
