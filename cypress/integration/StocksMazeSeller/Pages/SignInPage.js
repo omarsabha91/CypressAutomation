@@ -5,7 +5,7 @@ class SignInPage {
     logIn = '#submit-button';
 
     visit() {
-        cy.visit('/signin/');
+        cy.visit('/login/');
     }
 
     typeUsername(username) {
