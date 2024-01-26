@@ -6,7 +6,7 @@ import OrdersPage from '../Pages/OrdersPage';
 import NotificationsPage from "../Pages/NotifcationsPage";
 import PaymentsPage from "../Pages/PaymentsPage";
 import SettingsPage from "../Pages/SettingsPage";
-describe('StocksMazeSeller Sign In Test', () => {
+describe('StocksMazeSeller Navigations Test', () => {
     const signInPage = new SignInPage();
     const dashBoardPage = new DashBoardPage();
     const ordersPage = new OrdersPage();
