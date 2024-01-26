@@ -6,7 +6,7 @@ class NotificationsPage {
     }
 
     visit() {
-        cy.visit('/dashboard/');
+        cy.visit('/notifications/');
     }
 
 }
