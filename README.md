@@ -20,7 +20,7 @@ A step-by-step series of examples that tell you how to get a development environ
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/omarsabha91/CypressAutomation.git
+   git clone https://github.com/omarsabha91/SM-Seller-Cypress-Automation.git
 2. **Navigate to the Project Directory**
 
    ```bash
