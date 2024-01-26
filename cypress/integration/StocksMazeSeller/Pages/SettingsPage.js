@@ -6,7 +6,7 @@ class SettingsPage {
     }
 
     visit() {
-        cy.visit('/dashboard/');
+        cy.visit('/settings/');
     }
 
 }
