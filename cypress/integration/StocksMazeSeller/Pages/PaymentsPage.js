@@ -6,7 +6,7 @@ class PaymentsPage {
     }
 
     visit() {
-        cy.visit('/dashboard/');
+        cy.visit('/payments/');
     }
 
 }
