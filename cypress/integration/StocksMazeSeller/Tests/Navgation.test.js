@@ -13,7 +13,7 @@ describe('StocksMazeSeller Navigations Test', () => {
     const settingsPage = new SettingsPage();
     const paymentsPage = new PaymentsPage();
     const notificationsPage = new NotificationsPage();
-    it('should allow a seller to sign in', () => {
+    it('should Navigate to all pages successfully', () => {
         signInPage.visit();
         signInPage.typeUsername(Cypress.env('username'));
         signInPage.typePassword(Cypress.env('password'));
