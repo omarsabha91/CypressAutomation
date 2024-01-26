@@ -1,14 +1,14 @@
 
 import MainNavBar from '../components/MainNavBar';
-class DashBoardPage {
+class ProductsPage {
 
     constructor() {
         this.navBar = new MainNavBar();
     }
 
     visit() {
-        cy.visit('/dashboard/');
+        cy.visit('/products/');
     }
 
 }
-export default DashBoardPage;
+export default ProductsPage;

@@ -1,6 +1,5 @@
-
 import MainNavBar from '../components/MainNavBar';
-class DashBoardPage {
+class PaymentsPage {
 
     constructor() {
         this.navBar = new MainNavBar();
@@ -11,4 +10,4 @@ class DashBoardPage {
     }
 
 }
-export default DashBoardPage;
+export default PaymentsPage;
